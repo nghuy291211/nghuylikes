@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ff-like-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: API_KEY
+        sync: false # Sẽ được nhập thủ công trên Render Dashboard
+      - key: NODE_VERSION
+        value: 18.17.0

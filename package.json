@@ -1,13 +1,13 @@
 {
-  "name": "ff-like-api",
+  "name": "ff-api-server",
   "version": "1.0.0",
-  "description": "Free Fire Like API Server using shan-ffapi",
-  "main": "server.js",
+  "main": "ff_server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ff_server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
+    "axios": "^1.7.0",
     "shan-ffapi": "^1.0.0"
   }
 }
